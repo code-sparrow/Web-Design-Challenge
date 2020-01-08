@@ -8,6 +8,11 @@
 body {
     background-color: #A4C8D9;
 }
+.body-text {
+    font-family: 'Cormorant Garamond', serif;
+    padding: 8px;
+
+}
 
 .menu-text {
     font-family: 'Long Cang', cursive;
@@ -88,4 +93,8 @@ body {
 
 .slight-radius {
     border-radius: 8px;
+}
+
+.photo-select {
+    border:5px solid rgb(90, 32, 59);
 }

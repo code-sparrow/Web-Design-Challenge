@@ -45,7 +45,7 @@
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="visualizations/cloudiness.html"><p class="dropdown-text">Cloudiness (%) vs. Latitude</p></a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="visualizations/windspeed.html"><p class="dropdown-text"><i class="fas fa-wind"> </i>Wind Speed (mph) vs. Latitude</p></a>
+                    <a class="dropdown-item" href="visualizations/windspeed.html"><p class="dropdown-text">Wind Speed (mph) vs. Latitude</p></a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -60,15 +60,20 @@
     </nav>
 
     <div class="row">
-        <div class="col-md-7 p-4">
+        <div class="col-md-8 p-4">
             <h2 class="headings-text">Summary: Latitude vs. X</h2>
             <hr>
-            <img src="assets/images/Lat_vs_temp.png" class="slight-radius" style="width: 40%; float: left;" /><p>Some stuff waka waka waka waka wjak iub i diueh didh idhu id kuduh viduhf </p>
+            <img src="assets/images/Lat_vs_temp.png" class="slight-radius" style="padding:0 15px; width: 45%; float: left;" />
+            <p> This project looked at four measures of the weather across latitude. A python script was written to generate a random list 
+                of around 500 pairs of latitude and longitude. citipy was used to generate a list of city names based on those coordinates.
+                The OpenWeatherMap API was then used to query the temperature, humidity, cloudiness, and windspeed for each city. Matplotlib 
+                was used to visualize those variables across latitude...this site shows those visualizations.
+            </p>
 
         </div>
 
-        <div class="col-md-5 p-5">
-            <h2 class="headings-text text-center">Vizualizations</h2>
+        <div class="col-md-4 p-5 text-center">
+            <h2 class="headings-text">Vizualizations</h2>
             <hr>
             <div id="carEx" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -112,6 +117,8 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
+                <p>Max Temperature, Humidity, Cloudiness, and Windspeed versus Latitude</p>
+                <p>Click any image above, or <strong>Plots</strong> on the NavBar</p>
         </div>
     </div>
     
